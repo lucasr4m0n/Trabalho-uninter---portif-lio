@@ -1,0 +1,91 @@
+/* Reset e Configurações de Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #333;
+    scroll-behavior: smooth; /* Permite o deslize suave entre seções */
+}
+
+/* Menu Fixo */
+header {
+    background: #1a2a3a;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 100px auto 40px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+section {
+    padding: 30px 0;
+}
+
+h1 { color: #1a2a3a; font-size: 2.5rem; margin-bottom: 15px; }
+h2 { color: #2c3e50; border-left: 5px solid #27ae60; padding-left: 10px; margin-bottom: 20px; }
+
+hr { border: 0; height: 1px; background: #ddd; margin: 20px 0; }
+
+/* Projetos */
+.projeto {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Formulário */
+form { display: flex; flex-direction: column; }
+label { margin-top: 15px; font-weight: bold; }
+input, textarea { padding: 12px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+button {
+    margin-top: 25px;
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+button:hover { background: #219150; }
+#statusEnvio { margin-top: 15px; font-weight: bold; color: #27ae60; }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Lucas Ramon Souza Viegas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h1>Lucas Ramon Souza Viegas</h1>
+            <p>Sou graduando em <strong>Engenharia de Software na UNINTER</strong> (2025-2028) e estagiário no <strong>INEA</strong>. Minha trajetória é motivada pela busca constante por conhecimento e pela aplicação prática de tecnologias modernas para criar soluções eficientes.</p>
+            
+            <p>Possuo forte interesse e dedicação às áreas de <strong>DevOps, automação com Inteligência Artificial e desenvolvimento Full-stack</strong>. Em minha rotina de estudos e atuação profissional, busco sempre aplicar um <strong>pensamento analítico</strong> para abordar desafios técnicos de forma estruturada e otimizada.</p>
+            
+            <p>Para manter o equilíbrio e a disciplina, dedico meus momentos de lazer à <strong>leitura e à prática de esportes</strong>, hobbies que considero fundamentais para o meu desenvolvimento pessoal.</p>
+        </section>
+
+        <hr>
+
+        <section id="formacao">
+            <h2>Formação e Qualificações</h2>
+            <ul>
+                <li><strong>AWS Certified Cloud Practitioner</strong> - Certificação Global em Nuvem.</li>
+                <li><strong>AWS re/Start + IA</strong> - Escola da Nuvem (2025).</li>
+                <li><strong>Programa BIT (Front-End)</strong> - Vai Na Web (2025).</li>
+                <li><strong>Habilidades Técnicas:</strong> Python, JavaScript, Docker, Linux, Bancos de Dados e IA.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="portfolio">
+            <h2>Meu Portfólio</h2>
+            <div class="projeto">
+                <h3>Cinema VNW</h3>
+                <p>Inspirado nas gigantes do streaming como a Netflix, este projeto recria a experiência de uma tela de cinema diretamente no seu navegador. Com uma interface minimalista e focada, ele convida o usuário a mergulhar na imersão de um filme.</p>
+                <a href="https://github.com/lucasr4m0n/Cinema-VNW" target="_blank">Acessar Repositório</a>
+            </div>
+            
+            <div class="projeto" style="margin-top: 20px;">
+                <h3>passoia</h3>
+                <p>A Passoia é um projeto de Landing Page/e-commerce fictício desenvolvido para a Formação Bit do Vai Na Web. O objetivo principal é resolver um desafio comum no comércio online de beleza: a insegurança do cliente ao escolher tons de maquiagem, o que resulta em alta taxa de devolução.</p>
+                <a href="https://github.com/lucasr4m0n/passoia" target="_blank">Acessar Repositório</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <div id="statusEnvio"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Lucas Ramon Souza Viegas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
